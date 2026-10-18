@@ -10,7 +10,7 @@ dist=root/'dist';dist.mkdir(exist_ok=True);archive=dist/f'{slug}-{version}.zip'
 with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
  for p in sorted(set(paths)):
   rel=p.relative_to(root).as_posix()
-  assert rel!='.env' and not rel.endswith('.sqlite') and not rel.startswith(('storage/logs/','vendor/','node_modules/'))
+  assert rel!='.env' and not rel.endswith('.sqlite') and not rel.startswith(('vendor/','node_modules/')) and (not rel.startswith('storage/logs/') or p.name=='.gitignore')
   info=zipfile.ZipInfo(f'{slug}-{version}/'+rel,date_time=(2026,10,17,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED
   z.writestr(info,p.read_bytes())
 digest=hashlib.sha256(archive.read_bytes()).hexdigest()
