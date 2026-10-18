@@ -1,0 +1,10 @@
+name: Bug report
+description: Report a reproducible defect
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and reproduction
+      description: Include version and expected behavior. Never include private data.
+    validations:
+      required: true

@@ -1,0 +1,126 @@
+[
+  {
+    "id": "sofa_02",
+    "file": "sofa_02.glb",
+    "sha256": "db2bdf259b54a229cd8da123f6003bd46a2dbd36d846e39f80d53b2835d8bad6",
+    "bytes": 425580,
+    "source": "https://polyhaven.com/a/sofa_02",
+    "license": "CC0",
+    "resolution": "1k",
+    "author": {
+      "Kirill Sannikov": "All"
+    }
+  },
+  {
+    "id": "modern_arm_chair_01",
+    "file": "modern_arm_chair_01.glb",
+    "sha256": "e63d43aa97f499c95f7b02cff070c78fb68017a1f423b261bbd62d8eb4452049",
+    "bytes": 2696208,
+    "source": "https://polyhaven.com/a/modern_arm_chair_01",
+    "license": "CC0",
+    "resolution": "1k",
+    "author": {
+      "Vibrant Nordic": "All"
+    }
+  },
+  {
+    "id": "modern_coffee_table_01",
+    "file": "modern_coffee_table_01.glb",
+    "sha256": "c8b19a533dceda5b3b17c0c86e36b244d7f135fb7521b9c5e4db743a1ca420af",
+    "bytes": 1330284,
+    "source": "https://polyhaven.com/a/modern_coffee_table_01",
+    "license": "CC0",
+    "resolution": "1k",
+    "author": {
+      "Amin": "All"
+    }
+  },
+  {
+    "id": "dining_chair_02",
+    "file": "dining_chair_02.glb",
+    "sha256": "fa7a7d76eb2a844c32e9bc33fda344d98fd643634cb141922cad5d0937348c68",
+    "bytes": 920096,
+    "source": "https://polyhaven.com/a/dining_chair_02",
+    "license": "CC0",
+    "resolution": "1k",
+    "author": {
+      "James Ray Cock": "All"
+    }
+  },
+  {
+    "id": "round_wooden_table_01",
+    "file": "round_wooden_table_01.glb",
+    "sha256": "d5f66d8f7107ab1b88420ae06c4ba6a9de54688d5c9c57b2cb62b29c540893df",
+    "bytes": 548808,
+    "source": "https://polyhaven.com/a/round_wooden_table_01",
+    "license": "CC0",
+    "resolution": "1k",
+    "author": {
+      "Ulan Cabanilla": "All"
+    }
+  },
+  {
+    "id": "potted_plant_02",
+    "file": "potted_plant_02.glb",
+    "sha256": "dd9a5dc288f57a07ecd8eda2c98a6c1ee8d548344f1a4bba4f08b2e3bee894fe",
+    "bytes": 2632208,
+    "source": "https://polyhaven.com/a/potted_plant_02",
+    "license": "CC0",
+    "resolution": "1k",
+    "author": {
+      "Rico Cilliers": "All"
+    }
+  },
+  {
+    "id": "modern_ceiling_lamp_01",
+    "file": "modern_ceiling_lamp_01.glb",
+    "sha256": "4e384c8d58881c942783d7f6b0bca0b32ab05e2a519e56b1f87bc4401fc297d6",
+    "bytes": 433620,
+    "source": "https://polyhaven.com/a/modern_ceiling_lamp_01",
+    "license": "CC0",
+    "resolution": "1k",
+    "author": {
+      "James Ray Cock": "All"
+    }
+  },
+  {
+    "id": "desk_lamp_arm_01",
+    "file": "desk_lamp_arm_01.glb",
+    "sha256": "f76c78c105ea7dca2569e47cd0f61666be29d0c10985a3262da4accc4899386a",
+    "bytes": 2874264,
+    "source": "https://polyhaven.com/a/desk_lamp_arm_01",
+    "license": "CC0",
+    "resolution": "1k",
+    "author": {
+      "Yann Kervran": "Rigging",
+      "Kuutti Siitonen": "Modeling & texturing"
+    }
+  },
+  {
+    "id": "wooden_floor_02-Diffuse",
+    "file": "oak-color.jpg",
+    "source": "https://polyhaven.com/a/wooden_floor_02",
+    "license": "CC0",
+    "sha256": "82e56941b7554ad8069d3e5fffa149165b01f52bafa2f631f1618a6cf166fd88",
+    "bytes": 729028,
+    "resolution": "1k"
+  },
+  {
+    "id": "wooden_floor_02-nor_gl",
+    "file": "oak-normal.jpg",
+    "source": "https://polyhaven.com/a/wooden_floor_02",
+    "license": "CC0",
+    "sha256": "4ed9a5ddf84c7362642f1d866d838c746621448c421a9a85f58b4debc14e8ba1",
+    "bytes": 434460,
+    "resolution": "1k"
+  },
+  {
+    "id": "wooden_floor_02-Rough",
+    "file": "oak-roughness.jpg",
+    "source": "https://polyhaven.com/a/wooden_floor_02",
+    "license": "CC0",
+    "sha256": "6226c1fc88ace4d7aa8d8d11bc87b66dbc693fb51134709ee560bd0c71bd40eb",
+    "bytes": 548918,
+    "resolution": "1k"
+  }
+]

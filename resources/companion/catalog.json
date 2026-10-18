@@ -1,0 +1,195 @@
+{
+  "models": [
+    {
+      "character": "luminary",
+      "look": "swim",
+      "id": "luminary_swim",
+      "name": "Luminary \u00b7 Swimwear",
+      "body": "luminary-swim-body.glb",
+      "walking": "luminary-swim-walking.glb",
+      "running": "luminary-swim-running.glb"
+    },
+    {
+      "character": "luminary",
+      "look": "casual",
+      "id": "luminary_casual",
+      "name": "Luminary \u00b7 Casual / nice wear",
+      "body": "luminary-casual-body.glb",
+      "walking": "luminary-casual-walking.glb",
+      "running": "luminary-casual-running.glb"
+    },
+    {
+      "character": "luminary",
+      "look": "gala",
+      "id": "luminary_gala",
+      "name": "Luminary \u00b7 Luxury exotic dress",
+      "body": "luminary-gala-body.glb",
+      "walking": "luminary-gala-walking.glb",
+      "running": "luminary-gala-running.glb"
+    },
+    {
+      "character": "mira",
+      "look": "swim",
+      "id": "mira_swim",
+      "name": "Mira \u00b7 Swimwear",
+      "body": "mira-swim-body.glb",
+      "walking": "mira-swim-walking.glb",
+      "running": "mira-swim-running.glb"
+    },
+    {
+      "character": "mira",
+      "look": "casual",
+      "id": "mira_casual",
+      "name": "Mira \u00b7 Casual / nice wear",
+      "body": "mira-casual-body.glb",
+      "walking": "mira-casual-walking.glb",
+      "running": "mira-casual-running.glb"
+    },
+    {
+      "character": "mira",
+      "look": "gala",
+      "id": "mira_gala",
+      "name": "Mira \u00b7 Luxury exotic dress",
+      "body": "mira-gala-body.glb",
+      "walking": "mira-gala-walking.glb",
+      "running": "mira-gala-running.glb"
+    },
+    {
+      "character": "aurora",
+      "look": "swim",
+      "id": "aurora_swim",
+      "name": "Aurora \u00b7 Swimwear",
+      "body": "aurora-swim-body.glb",
+      "walking": "aurora-swim-walking.glb",
+      "running": "aurora-swim-running.glb"
+    },
+    {
+      "character": "aurora",
+      "look": "casual",
+      "id": "aurora_casual",
+      "name": "Aurora \u00b7 Casual / nice wear",
+      "body": "aurora-casual-body.glb",
+      "walking": "aurora-casual-walking.glb",
+      "running": "aurora-casual-running.glb"
+    },
+    {
+      "character": "aurora",
+      "look": "gala",
+      "id": "aurora_gala",
+      "name": "Aurora \u00b7 Luxury exotic dress",
+      "body": "aurora-gala-body.glb",
+      "walking": "aurora-gala-walking.glb",
+      "running": "aurora-gala-running.glb"
+    }
+  ],
+  "files": {
+    "aurora-casual-body.glb": {
+      "bytes": 9005916,
+      "sha256": "d3ec94513f62ca2717d75bbd563035233b80c7ea993ca2969ac0a45b05fd0629"
+    },
+    "aurora-casual-running.glb": {
+      "bytes": 60796,
+      "sha256": "1ed2eed0cfedbb24e785ad845e8477771b68ed1ad7b85a64853c540f879e114a"
+    },
+    "aurora-casual-walking.glb": {
+      "bytes": 65404,
+      "sha256": "fbd485e63e8e55465589044ab8ddef9af97b15d437f64137a95afe5c4323bc84"
+    },
+    "aurora-gala-body.glb": {
+      "bytes": 8144832,
+      "sha256": "aac842d557f5c94ddf654acbd2ecde8e1add5b4493863bf081b8a576f57ff251"
+    },
+    "aurora-gala-running.glb": {
+      "bytes": 60628,
+      "sha256": "22bd4dbb59ef751233052efeb411e9a274bf018df8d24778d83832ccc2f74f02"
+    },
+    "aurora-gala-walking.glb": {
+      "bytes": 65236,
+      "sha256": "cbed0cf9712cf5e0eee8034a2b912f055ed15c4a5bae0ca63234807a1926c6d7"
+    },
+    "aurora-swim-body.glb": {
+      "bytes": 7173492,
+      "sha256": "1458492a81e1d0876b1b936bea0a61dd8da603b2cca210cd0c8c07f374a888b5"
+    },
+    "aurora-swim-running.glb": {
+      "bytes": 60744,
+      "sha256": "19325f14b65ee4fc1f755aa300c7c725626a3dbbd27f1f452b1721528031f1d9"
+    },
+    "aurora-swim-walking.glb": {
+      "bytes": 65360,
+      "sha256": "c5f7d49d3d6ae825a1efa0edeb70ad90157a16e8763f6b641464ed425b38605c"
+    },
+    "luminary-casual-body.glb": {
+      "bytes": 8119372,
+      "sha256": "d95245e1f35262b40cbaf99b33ac6591ba496f2cafc861f14ec519bd50804b77"
+    },
+    "luminary-casual-running.glb": {
+      "bytes": 60716,
+      "sha256": "a1eff668ddc16f7e6a77156e38464c4fc0859ced99eab60bcc521d6d4432dfa4"
+    },
+    "luminary-casual-walking.glb": {
+      "bytes": 65328,
+      "sha256": "96ffa914672df50dca7d5c8d883d88d2a6aa55f8d072f16254c7d2632694060b"
+    },
+    "luminary-gala-body.glb": {
+      "bytes": 8207544,
+      "sha256": "1d8be04415d7a9dd14b303353ceb34b8e2bae7fad5ab7fa9d3b6dee4eab56160"
+    },
+    "luminary-gala-running.glb": {
+      "bytes": 60704,
+      "sha256": "efc68975d8c17effc0f33b831bbaf194f3ff6eb392d78cef5edab252be39d45c"
+    },
+    "luminary-gala-walking.glb": {
+      "bytes": 65304,
+      "sha256": "48bd786311a95da2ef07449a9e060355727ca035d4f9898e05075fff44d421ae"
+    },
+    "luminary-swim-body.glb": {
+      "bytes": 7020620,
+      "sha256": "32af444e17c64a9d926fd5d5ac1475324e5f5bcc6b577c6c9813d3ba5f7e7480"
+    },
+    "luminary-swim-running.glb": {
+      "bytes": 60928,
+      "sha256": "27482a390d90aab30e6f8ad2900cda622cce0dfbfd085c9ffbf7a5895cba2957"
+    },
+    "luminary-swim-walking.glb": {
+      "bytes": 65540,
+      "sha256": "a3efa24090cd735461a5154455c2e6feb05a5e1d182c1983223164c6edc3be91"
+    },
+    "mira-casual-body.glb": {
+      "bytes": 8000172,
+      "sha256": "33033560911a4b419e028c874dca41d92e3eb4849ff0691a1465c9e634754c07"
+    },
+    "mira-casual-running.glb": {
+      "bytes": 60808,
+      "sha256": "0bee1bce48bb028733a140e30b5b1afeb8585076f015e7ece44f67451840077c"
+    },
+    "mira-casual-walking.glb": {
+      "bytes": 65420,
+      "sha256": "da66526a70dcff87f5350eba7eaca554e2f1fc4dc0b6d1422c0556ef652cb71d"
+    },
+    "mira-gala-body.glb": {
+      "bytes": 9159196,
+      "sha256": "f2af2e0e60000eaa64cfecafbe9f151bed526cd456853d5ce5174d6251fb6089"
+    },
+    "mira-gala-running.glb": {
+      "bytes": 60700,
+      "sha256": "ba0a27037fed17ddb671ad8b79ac135b5f0e0e31ba98d819c063b166766c16f8"
+    },
+    "mira-gala-walking.glb": {
+      "bytes": 65804,
+      "sha256": "69f9a97c720c180cd6f0ec7a36f72c3cae18bf687ecc597e1e40815c43c75a6d"
+    },
+    "mira-swim-body.glb": {
+      "bytes": 8866260,
+      "sha256": "422e6aba436c4dd217713f7079c1edc0aa288233ceac9ebf245c22610349763e"
+    },
+    "mira-swim-running.glb": {
+      "bytes": 60784,
+      "sha256": "1393af0d15576ffeac75b345049f6675a86c9c7c3179d3c27e6b1ed733fe5bc3"
+    },
+    "mira-swim-walking.glb": {
+      "bytes": 65392,
+      "sha256": "ac4d290092f8cff519f18cfa48dd30dd40e0c208b84a8cf75c36ff4027c893b1"
+    }
+  }
+}
