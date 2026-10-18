@@ -1,6 +1,6 @@
 # Luminary Chat
 
-**Gold · v2.1.0 · released as-is.** Future features and maintenance are discretionary.
+**Gold · v2.1.1 · released as-is.** Future features and maintenance are discretionary.
 
 Self-hosted Character chat with Venice/OpenRouter BYOK, separate characters, conversations, summaries, editable memory, rooms, import/export and a 3D companion home.
 
