@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Explain the decision to open-source this former Forge lab and clarify the introduction; application behavior and the as-is release scope are unchanged.
+
 ## 2.1.1 — 2026-10-17
 
 - Preserve empty runtime directory markers in the source archive while rejecting logs, databases and private configuration.
