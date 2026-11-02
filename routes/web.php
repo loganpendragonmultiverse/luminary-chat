@@ -216,28 +216,3 @@ Route::post("/companion-world/session/{template}", [\App\Http\Controllers\Compan
 // The world entry is protected by the same session login as Chat Mode.
 Route::get('/companion/cottage-20261012', fn () => response()->view('companion.home')->header('Cache-Control', 'private, no-store'))->middleware('auth')->name('companion.home');
 Route::get('/companion/cottage-20261012/index.html', fn () => redirect()->route('companion.home'))->middleware('auth');
-
-// Compatibility redirects adopt only an existing signed, unexpired session from this same app.
-$legacyHandoff = function (Request $request, string $legacy = '') {
-    $target = '/'.ltrim($legacy, '/');
-    if ($request->query()) $target .= '?'.http_build_query($request->query());
-    $redirect = fn () => redirect($target, 301)->header('Cache-Control', 'private, no-store');
-    if ($request->user()) return $redirect();
-    $id = $request->cookie('luminary_companion_beta_session');
-    if (!is_string($id) || !preg_match('/^[A-Za-z0-9]{40}$/', $id)) return $redirect();
-    $row = \Illuminate\Support\Facades\DB::table('sessions')->where('id', $id)->first();
-    if (!$row || !$row->user_id || $row->last_activity < time() - config('session.lifetime') * 60) return $redirect();
-    $raw = base64_decode($row->payload, true);
-    if (!$raw) return $redirect();
-    if (config('session.encrypt')) { try { $raw = \Illuminate\Support\Facades\Crypt::decryptString($raw); } catch (\Throwable $e) { return $redirect(); } }
-    $data = @unserialize($raw, ['allowed_classes' => false]);
-    $guard = Auth::guard();
-    if (!is_array($data) || (int)($data[$guard->getName()] ?? 0) !== (int)$row->user_id) return $redirect();
-    $user = \App\Models\User::find($row->user_id);
-    if (!$user || !$user->is_active) return $redirect();
-    Auth::login($user);
-    $request->session()->regenerate();
-    return $redirect();
-};
-Route::get('/beta/session-upgrade', fn (Request $request) => $legacyHandoff($request, 'characters'));
-Route::get('/beta/{legacy?}', $legacyHandoff)->where('legacy', '.*');
