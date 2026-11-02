@@ -1,6 +1,6 @@
 # Luminary Chat
 
-**Gold · v2.1.1 · released as-is.** Future features and maintenance are optional.
+**Gold · v2.1.2 · released as-is.** Future features and maintenance are optional.
 
 Luminary Chat is a character chat app you can host yourself. It uses your own Venice or OpenRouter keys and includes separate characters, conversations, editable memory, rooms, import and export, and a 3D companion home.
 
@@ -8,7 +8,7 @@ Luminary Chat began as a Forge lab. I tried to market it, but it wasn't gaining 
 
 ## Install
 
-Requires PHP 8.3+ (PDO SQLite, mbstring, OpenSSL, fileinfo, DOM/XML, curl), Composer 2 and Node.js 22.12+ with npm. Linux, macOS and Windows with those runtimes are supported.
+Requires PHP 8.3+, which matches the locked dependencies and CI-tested runtime. Requires PDO SQLite, mbstring, OpenSSL, fileinfo, DOM/XML, curl, Composer 2 and Node.js 22.12+ with npm. Linux, macOS and Windows with those runtimes are supported.
 
 ```sh
 git clone https://github.com/loganpendragonmultiverse/luminary-chat.git
