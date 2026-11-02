@@ -15,7 +15,7 @@ jobs:
           php-version: '8.3'
           extensions: pdo_sqlite, mbstring, iconv, curl, dom, xml, fileinfo, gd
           coverage: none
-      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
         with:
           node-version: '22'
       - run: php install.php
