@@ -12,7 +12,7 @@
     "axios": "^1.20.0",
     "concurrently": "^10.0.6",
     "esbuild": "0.28.2",
-    "laravel-vite-plugin": "^3.2.0",
+    "laravel-vite-plugin": "^3.2.1",
     "postcss": "^8.4.47",
     "tailwindcss": "^4.3.3",
     "three": "0.187.0",
