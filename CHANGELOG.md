@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.3 - 2026-11-16
+
+- Update locked Laravel and Symfony dependencies to patched versions. Composer audit reports no advisories.
+
 ## Unreleased
 
 ## 2.1.2 — 2026-10-27
