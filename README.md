@@ -1,6 +1,6 @@
 # Luminary Chat
 
-**Gold · v2.1.2 · released as-is.** Future features and maintenance are optional.
+**Current release v2.1.3.** Forge assessed v2.1.2 for Gold. This maintenance release updates the dependency lock.
 
 Luminary Chat is a character chat app you can host yourself. It uses your own Venice or OpenRouter keys and includes separate characters, conversations, editable memory, rooms, import and export, and a 3D companion home.
 
